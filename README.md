@@ -1,4 +1,4 @@
-# Welcome to the Code Your Future "Bootcamp" for Globers!
+# Welcome to the Code Your Future "Bootcamp" for Interns!
 
 Please, use this repository as a base for your training. 
 The idea is to fork this project so everyone use the same folder structure for the exercises.
@@ -42,7 +42,7 @@ This course teaches the basics of Java development and the tools and frameworks 
 
 ## Who Should Attend
 
-The training will start at a low level and does not require in depth knowledge of the platform in question. Desirable participant profile: Globant trainees with a basic knowledge on OOP and a lot of energy!
+The training will start at a low level and does not require in depth knowledge of the platform in question. Desirable participant profile: Globant interns with a basic knowledge on OOP and a lot of energy!
 
 → [index](#index)
 
@@ -71,8 +71,7 @@ When you feel like you are good to go with a practice code, let trainers know an
 
 2. The IDE to use is [IntellIJ IDEA] (https://www.jetbrains.com/es-es/idea/download/). Community version  is enough for Bootcamp completion.
 
-3. [Download](https://slack.com/downloads) and install Slack's application. You will receive an invitation in your email to join to Slack's workspace *glb-bootcamp-chaco* or just sign in to https://glb-bootcamp-chaco.slack.com and join the channel #general
-, please updated your profile picture with your face!
+3. [Download](https://slack.com/downloads) and install Slack's application. You will receive an invitation in your email to join to Slack's workspace, please updated your profile picture with your face!
 
 4. Create your own [GitHub](https://github.com/) account. Follow this [guideline](https://help.github.com/articles/set-up-git) to setup your account. Also you can read further about Git in [Try Git](https://try.github.io/levels/1/challenges/1) or [Learn Git Branching](http://pcottle.github.io/learnGitBranching/)
 
@@ -88,8 +87,7 @@ The Code Your Future bootcamp is organized in the following way:
 
 each trainee needs to read about the topics and jump into the coding excercises. An a Slack's channel by topic will be used to discuss with tutors and co-trainees about both theory and practice, and each on-site talk we are going to go through the outcome of Slack channel discussions, emphasizing about those topics that are causing more pain for all.
 
-Globant Workspace Slack's account would be used for technical assistance:
->#glb-bootcamp-chaco
+Globant Workspace Slack's account would be used for technical assistance
 
 Every person participating in the bootcamp is present here (trainees and trainners). Here is the place to ask for technical assistance!
 
@@ -121,12 +119,13 @@ You will commit all your code as soon as you finish your practice. No rush, but 
 ## Reading:
 
 1. [JVM](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html#t1s1). See: "Java Technology and the JVM"
-2.  Java Concepts [basic tutorial](http://docs.oracle.com/javase/tutorial/java/concepts/)
+2. Java Concepts [basic tutorial](http://docs.oracle.com/javase/tutorial/java/concepts/)
+3. Java 8 [Stream API](https://java2blog.com/java-8-stream/)
 
 ## Practice
 
  -  Make some exercises listed [here](https://www3.ntu.edu.sg/home/ehchua/programming/java/J2a_BasicsExercises.html) and [here](https://www.w3resource.com/java-exercises/basic/index.php) .
- -  Have fun with [Intro to Java](http://www.ibm.com/developerworks/java/tutorials/j-introtojava1/). 
+ -  Make the exercises for Stream API listed [here](https://java2blog.com/java-8-stream/#Exercises). 
  
  ## Topic Practice
 Go to Topic 0 resources, check folder *Topic0JavaBootCamp/src*, you will find a basic structure of a Java Project, with an initial application abstraction. Import these files to your IntelliJ IDEA's project. You have to build a Java Application using all OOP concepts. You have to make a Farm, with a Farmer and a Hen House with 40 Hens, 70% of Heans lay Red Eggs and 30% Heans lay White Eggs, each Hen will lay 2 eggs per day. Your Farmer have to recolect them inside an Egg's Carton, each Egg's Carton (6 x 5) has a capacity for 30 eggs and it will be classified them by color. 
@@ -206,10 +205,10 @@ Commit your practice code, whatever you have accomplished.
 
 ## Reading:
 1. [Benefits of Unit Testing](https://dzone.com/articles/top-8-benefits-of-unit-testing)
-2. [JUnit](https://junit.org/junit4/cookbook.html)
+2. [JUnit](https://junit.org/junit5/docs/current/user-guide/)
 3. [Mockito](https://site.mockito.org/)
-4. [Difference Between Mocks and Stubs](https://martinfowler.com/articles/mocksArentStubs.html)
-5. [Optional, good to know its existence though] [Test Driven Development](http://technologyconversations.com/2013/12/24/test-driven-development-tdd-best-practices-using-java-examples-2/)
+4. [Difference Between Mocks and Spies](https://baeldung.com/mockito-spy)
+5. Optional, good to know its existence though - [Test Driven Development](http://technologyconversations.com/2013/12/24/test-driven-development-tdd-best-practices-using-java-examples-2/)
 
 ## Topic Practice:
 
@@ -225,9 +224,8 @@ Commit your practice code, whatever you have accomplished.
 
 ## Reading:
 
-1. [Spring Framework Fundamentals](https://o7planning.org/en/10127/spring-tutorial-for-beginners)
-2. [Spring MVC](https://o7planning.org/en/10129/spring-mvc-tutorial-for-beginners)
-3. [Spring Framework Projects](https://www.baeldung.com/org-springframework)
+1. [Spring Framework Fundamentals](https://www.baeldung.com/org-springframework)
+2. [Spring MVC](https://www.baeldung.com/spring-mvc-tutorial)
 
 ## Topic Practice
 Transform your Farm Application into a Spring Project
@@ -238,8 +236,8 @@ Transform your Farm Application into a Spring Project
 
  1. [What's HTTP?](https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177)
 
-2. [Introduction to REST](https://www.youtube.com/watch?v=YCcAE2SCQ6k)
-3. [How to design a good API and why it matters](https://www.youtube.com/watch?v=aAb7hSCtvGw)
+2. [Introduction to REST](https://towardsdatascience.com/introduction-to-rest-apis-90b5d9676004)
+3. [How to design a good API and why it matters](https://betterprogramming.pub/restful-api-design-step-by-step-guide-2f2c9f9fcdbf?gi=f181e336c8f9)
 4. [Spring Boot Introduction](https://www.baeldung.com/spring-boot-start)
 5. [Building Rest Services With Spring - Practical Tutorial](https://spring.io/guides/tutorials/rest/)
 6. [REST API documentation with Swagger](http://swagger.io/getting-started/)
@@ -268,9 +266,9 @@ Commit your practice code, whatever you have accomplished.
 
 ## Extra documentation:
 
-1. [Optimizaciones en MySql](http://www.arsys.info/programacion/bases-de-datos/como-optimizar-bases-de-datos-mysql/)
-2. [JPA](https://www.vogella.com/tutorials/JavaPersistenceAPI/article.html) 
-3. [Spring Data](https://www.baeldung.com/the-persistence-layer-with-spring-data-jpa)
+1. [JPA](https://www.vogella.com/tutorials/JavaPersistenceAPI/article.html) 
+2. [Spring Data](https://www.baeldung.com/the-persistence-layer-with-spring-data-jpa)
+3. [Spring Data JPA Reference](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#dependencies)
 
 
 ## Topic Practice:
@@ -315,17 +313,3 @@ Commit your practice code, whatever you have accomplished.
 → [index](#index)
 
 Thanks for reading!
-
-
-# Deliverables Plan
-
-
-|Topic| Start Date | Finish Date|
-|-----|------------|------------|
-|Topic 0-1 |	04/05/2021|	10/05/2021
-|Topic 2-3|	10/05/2021|	17/05/2021
-|Topic 4|	17/05/2021|	24/05/2021
-|Topic 5|	24/05/2021|	31/05/2021
-
-
-→ [index](#index)
